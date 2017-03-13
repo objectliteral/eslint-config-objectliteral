@@ -1,0 +1,131 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6
+    }, "env": {
+        "browser": true,
+        "commonjs": true
+    },
+    "extends": [
+        "./possible-errors.json",
+        "./best-practices.json",
+        "./variables.json",
+        "./stylistic-issues.json"
+    ],
+    "plugins": [
+        "extra-rules",
+        "objects",
+        "node",
+        "no-unsafe-chars"
+    ],
+    "rules": {
+
+        /* Strict Mode */
+        "strict": [
+            /**
+             * I think, you should run in strict mode, but your bundler or whatever can take care of inserting the statement.
+             */
+            "off"
+        ],
+
+        /* Node.js and Common.js */
+        "callback-return": [
+            "off"
+        ],
+        "global-require": [
+            "error"
+        ],
+        "no-mixed-requires": [
+            "error",
+            {
+                "grouping": true,
+                "allowCall": true
+            }
+        ],
+        "no-new-require": [
+            "error"
+        ],
+        "no-path-concat": [
+            "error"
+        ],
+        "no-process-env": [
+            "error"
+        ],
+        "no-process-exit": [
+            "error"
+        ],
+        "no-restricted-modules": [
+            "off"
+        ],
+        "no-sync": [
+            "off"
+        ],
+        
+
+        "extra-rules/no-commented-out-code": [
+            "warn"
+        ],
+        "extra-rules/no-long-files": [
+            "off",
+            80
+        ],
+        "camel_case": [
+            "off"
+        ],
+        "no-for-loops": [
+            "off"
+        ],
+        "extra-rules/no-single-line-objects": [
+            "error"
+        ],
+        "extra-rules/potential-point-free": [
+            "warn"
+        ],
+
+        "objects/no-object-properties-first-line": [
+            "error"
+        ],
+        "objects/no-object-properties-last-line": [
+            "error"
+        ],
+        "objects/no-object-properties-one-line": [
+            "error"
+        ],
+        "objects/no-object-property-split": [
+            "error"
+        ],
+
+        "node/no-missing-import": [
+            "error"
+        ],
+        "node/no-missing-require": [
+            "error"
+        ],
+        "node/no-unpublished-import": [
+            "off"
+        ],
+        "node/no-unpublished-require": [
+            "off"
+        ],
+        "node/no-unsupported-features": [
+            "error",
+            {
+                "version": 6
+            }
+        ],
+        "node/shebang": [
+            "warn"
+        ],
+
+        "closuredepth/closuredepth": [
+            "error",
+            {
+                "limit": 6
+            }
+        ],
+
+        "no-unsafe-chars/no-umlauts": [
+            "error"
+        ]
+
+    }
+}

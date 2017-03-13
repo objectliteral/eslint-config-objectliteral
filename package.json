@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-objectliteral-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Peter Steinberg",
+    "email": "objectliteral@outlook.com",
+    "url": "https://github.com/objectliteral"
+  },
+  "license": "MIT"
+}
