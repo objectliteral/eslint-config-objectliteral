@@ -12,10 +12,7 @@
         "./stylistic-issues.json"
     ],
     "plugins": [
-        "extra-rules",
-        "objects",
-        "node",
-        "no-unsafe-chars"
+       
     ],
     "rules": {
 
@@ -58,74 +55,7 @@
         ],
         "no-sync": [
             "off"
-        ],
-        
-
-        "extra-rules/no-commented-out-code": [
-            "warn"
-        ],
-        "extra-rules/no-long-files": [
-            "off",
-            80
-        ],
-        "camel_case": [
-            "off"
-        ],
-        "no-for-loops": [
-            "off"
-        ],
-        "extra-rules/no-single-line-objects": [
-            "error"
-        ],
-        "extra-rules/potential-point-free": [
-            "warn"
-        ],
-
-        "objects/no-object-properties-first-line": [
-            "error"
-        ],
-        "objects/no-object-properties-last-line": [
-            "error"
-        ],
-        "objects/no-object-properties-one-line": [
-            "error"
-        ],
-        "objects/no-object-property-split": [
-            "error"
-        ],
-
-        "node/no-missing-import": [
-            "error"
-        ],
-        "node/no-missing-require": [
-            "error"
-        ],
-        "node/no-unpublished-import": [
-            "off"
-        ],
-        "node/no-unpublished-require": [
-            "off"
-        ],
-        "node/no-unsupported-features": [
-            "error",
-            {
-                "version": 6
-            }
-        ],
-        "node/shebang": [
-            "warn"
-        ],
-
-        "closuredepth/closuredepth": [
-            "error",
-            {
-                "limit": 6
-            }
-        ],
-
-        "no-unsafe-chars/no-umlauts": [
-            "error"
         ]
-
+        
     }
 }
