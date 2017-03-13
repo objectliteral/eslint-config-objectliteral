@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-objectliteral-base",
+  "name": "eslint-config-objectliteral",
   "version": "0.0.9",
   "description": "ESlint config courtesy of @objectliteral",
   "main": "index.js",
@@ -13,12 +13,16 @@
   },
   "keywords": [
     "eslint",
-    "eslint-config"
+    "eslint-config",
+    "eslintconfig"
   ],
   "author": {
     "name": "Peter Steinberg",
     "email": "objectliteral@outlook.com",
     "url": "https://github.com/objectliteral"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
   },
   "license": "MIT"
 }

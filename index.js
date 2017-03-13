@@ -1,3 +1,3 @@
 module.exports = {
-    extends: 'eslint-config-objectliteral/base'
+    extends: './base.json'
 };
