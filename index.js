@@ -1,3 +1,3 @@
 module.exports = {
-    extends: './base.json'
+    "extends": "./base.js"
 };

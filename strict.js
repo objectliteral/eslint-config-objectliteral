@@ -1,4 +1,4 @@
-{
+module.exports = {
     "extends": "eslint-config-objectliteral/base",
     "rules": {
         "no-constant-condition": [
@@ -89,4 +89,4 @@
             }
         ]
     }
-}
+};

@@ -1,4 +1,4 @@
-{
+module.exports = {
     "rules": {    
         /* Variables: */
         "init-declarations": [
@@ -72,4 +72,4 @@
             "error"
         ]
     }
-}
+};

@@ -1,4 +1,4 @@
-{
+module.exports = {
     "rules": {    
         /* Best Practices: */
         "accessor-pairs": [
@@ -384,4 +384,4 @@
             "never"
         ]
     }
-}
+};

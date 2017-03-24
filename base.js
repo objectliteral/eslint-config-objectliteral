@@ -1,4 +1,4 @@
-{
+module.exports = {
     "parserOptions": {
         "ecmaVersion": 6
     }, "env": {
@@ -6,10 +6,10 @@
         "commonjs": true
     },
     "extends": [
-        "./possible-errors.json",
-        "./best-practices.json",
-        "./variables.json",
-        "./stylistic-issues.json"
+        "./possible-errors.js",
+        "./best-practices.js",
+        "./variables.js",
+        "./stylistic-issues.js"
     ],
     "plugins": [
        
@@ -58,4 +58,4 @@
         ]
 
     }
-}
+};

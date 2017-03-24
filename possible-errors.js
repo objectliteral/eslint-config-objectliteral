@@ -1,4 +1,4 @@
-{
+module.exports = {
     "rules": {
         /* Possible Errors: */
         "comma-dangle": [
@@ -27,7 +27,7 @@
             /**
             * It is more or less common convention to not use console.log in production. But because it is just so useful for debugging, I only WARN about it.
             */
-            "warn"
+            3
         ],
         "no-control-regex": [
             /**
@@ -179,4 +179,4 @@
             "error"
         ]
     }
-}
+};

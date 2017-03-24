@@ -1,4 +1,4 @@
-{
+module.exports = {
     "rules": {    
         /* Stylistic Issues */
         "array-bracket-spacing": [
@@ -293,4 +293,4 @@
             "off"
         ]
     }
-}
+};
